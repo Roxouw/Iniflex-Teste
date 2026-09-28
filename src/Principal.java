@@ -8,11 +8,9 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class Principal {
+
     ///Constante para salario minimo
     private static final BigDecimal SALARIO_MINIMO = new BigDecimal("1212.00");
-
-    /// Formatação de data dd/mm/aaaa
-    private static final DateTimeFormatter FORMATO_DATA = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     /// Formatação numérica pt-BR: separador de milhar "." e decimal ","
     private static final Locale LOCALE_BR = new Locale("pt", "BR");
