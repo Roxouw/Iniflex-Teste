@@ -2,8 +2,8 @@ import java.time.LocalDate;
 
     /// 1 - Classe Pessoa com os atributos: nome (String) e data nascimento (LocalDate).
 public class Pessoa {
-    String nome;
-    LocalDate dataNascimento;
+    private String nome;
+    private LocalDate dataNascimento;
 
     public Pessoa(String nome, LocalDate dataNascimento) {
         this.nome = nome;

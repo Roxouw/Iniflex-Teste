@@ -3,8 +3,8 @@ import java.time.LocalDate;
 
     /// 2 – Classe Funcionário que estenda a classe Pessoa, com os atributos: salário (BigDecimal) e função (String).
 public class Funcionario extends Pessoa{
-    BigDecimal salario;
-    String funcao;
+    private BigDecimal salario;
+    private String funcao;
 
 
     public Funcionario(String nome, LocalDate dataNascimento, BigDecimal salario, String funcao) {
